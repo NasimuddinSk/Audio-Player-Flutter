@@ -39,6 +39,8 @@ dependencies:
   flutter_svg: ^2.0.10+1
   # for carausal slider
   carousel_slider: ^4.2.1
+  # for sound up and down
+  syncfusion_flutter_gauges: ^26.1.38
 
 dev_dependencies:
   flutter_test:
