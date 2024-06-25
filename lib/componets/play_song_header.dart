@@ -8,27 +8,19 @@ class PlaySongHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      mainAxisAlignment: MainAxisAlignment.end,
       children: [
         Container(
           width: 40,
           height: 40,
-          padding: EdgeInsets.all(10),
+          padding: const EdgeInsets.all(10),
           decoration: BoxDecoration(
             color: divColor,
             borderRadius: BorderRadius.circular(10),
           ),
-          child: SvgPicture.asset("assets/icons/back_page.svg"),
-        ),
-        Container(
-          width: 40,
-          height: 40,
-          padding: EdgeInsets.all(10),
-          decoration: BoxDecoration(
-            color: divColor,
-            borderRadius: BorderRadius.circular(10),
+          child: SvgPicture.asset(
+            "assets/icons/setting.svg",
           ),
-          child: SvgPicture.asset("assets/icons/setting.svg"),
         ),
       ],
     );

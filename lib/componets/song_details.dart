@@ -26,11 +26,13 @@ class SongDetails extends StatelessWidget {
               "Tera Yaar Hoon Main",
               style: Theme.of(context).textTheme.bodyLarge,
             ),
-            SvgPicture.asset("assets/icons/download.svg",
-            width: 25,),
+            SvgPicture.asset(
+              "assets/icons/download.svg",
+              width: 25,
+            ),
           ],
         ),
-            const SizedBox(height: 10),
+        const SizedBox(height: 10),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
